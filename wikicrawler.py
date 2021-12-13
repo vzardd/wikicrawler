@@ -15,7 +15,8 @@ def trim(line):
         line=line.replace(sub,"")
     return line
 print(118*"-"+"\n"+55*" "+"WIKICRAWLER"+"\n"+118*"-")
-while True:    
+while True:
+    #enter something to search
     name=str(input("\nEnter Something to know about - "))
     print()
     name=name.split()
