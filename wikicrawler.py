@@ -1,5 +1,6 @@
 import urllib.request,urllib.parse,urllib.error
 import re
+#function to filter sentences
 def trim(line):
     sublst=re.findall("<.+?>",line)
     for sub in sublst:
