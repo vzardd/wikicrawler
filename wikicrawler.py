@@ -24,6 +24,7 @@ while True:
     for i,x in enumerate(name):
         name[i]=x.capitalize()
     name="_".join(name)
+    #url to scrape
     url="https://en.wikipedia.org/wiki/"+name
     try:
         uh=str(urllib.request.urlopen(url).read())
